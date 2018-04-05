@@ -40,7 +40,7 @@ module Tamber
 
   @api_url = 'https://api.tamber.com/v1'
   @open_timeout = 30
-  @read_timeout = 80
+  @read_timeout = 5
 
   class << self
     attr_accessor :project_key, :engine_key, :api_version, :verify_ssl_certs, :open_timeout, :read_timeout
