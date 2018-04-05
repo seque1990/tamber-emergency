@@ -1,0 +1,6 @@
+/tamber-*.gem
+/Gemfile.lock
+.rvmrc
+Gemfile.lock
+tags
+.ruby-version
